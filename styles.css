@@ -20,11 +20,11 @@ body{
     margin-top: 50px;
     width: 90vw;
     height: 50vh;
-    background-color: var(--base);
-    padding: var(--space);
 }
 
 .image{
+    background-color: var(--base);
+    padding: var(--space);
     width: var(--size);
     height: var(--size);
     filter: blur(var(--blur));
