@@ -1,6 +1,7 @@
 let inputs = document.querySelectorAll('.input');
 function handleChange(){
-    console.log(this.value);
+    const suffix = this.dataset.sizing || '';
+    document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
 }
 
 inputs.forEach(input => {
