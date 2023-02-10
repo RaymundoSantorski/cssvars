@@ -5,10 +5,10 @@
 }
 
 :root{
-    --size: 50%;
-    --space: 10px;
-    --blur: 10px;
-    --base: #BADA55;
+    --size: 100%;
+    --space: 5px;
+    --blur: 0px;
+    --base: #000;
 }
 
 body{
@@ -28,4 +28,27 @@ body{
     width: var(--size);
     height: var(--size);
     filter: blur(var(--blur));
+}
+
+.inputs_container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input_container{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    width: 100vw;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.title>span{
+    color: var(--base);
 }
