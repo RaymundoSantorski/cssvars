@@ -1,6 +1,6 @@
 # Css Variables
 
-** Proyecto para manipular variables css desde javascript **
+**Proyecto para manipular variables css desde javascript**
 
 - Manipula distinas propiedades de una imagen inscrustada
 
