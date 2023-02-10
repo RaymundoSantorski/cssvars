@@ -3,3 +3,29 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+    --size: 50%;
+    --space: 10px;
+    --blur: 10px;
+    --base: #BADA55;
+}
+
+body{
+    display: grid;
+    place-content: center;
+}
+
+.image_container{
+    margin-top: 50px;
+    width: 90vw;
+    height: 50vh;
+    background-color: var(--base);
+    padding: var(--space);
+}
+
+.image{
+    width: var(--size);
+    height: var(--size);
+    filter: blur(var(--blur));
+}
