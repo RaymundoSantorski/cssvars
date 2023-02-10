@@ -20,4 +20,6 @@
 
     - Javascript
 
+- En este proyecto se utiliza una arquitectura básica en la que todos los archivos están en el direcorio raíz
+
 ![imagen de muestra del resultado](./screenshot.png)
