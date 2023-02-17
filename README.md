@@ -22,4 +22,6 @@
 
 - En este proyecto se utiliza una arquitectura básica en la que todos los archivos están en el direcorio raíz
 
+Puedes ver el resultado [aqui](https://raymundosantorski.github.io/cssvars/);
+
 ![imagen de muestra del resultado](./screenshot.png)
